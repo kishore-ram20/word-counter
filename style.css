@@ -9,6 +9,39 @@ body {
     width: 100%;
 }
 
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+}
+
+.snowflake {
+    position: fixed;
+    background-color: white;
+    user-select: none;
+    z-index: 1000;
+    pointer-events: none;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    color: white;
+}
+
+h2 {
+    padding-top: 5%;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+h4 {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 18px;
+    color: white;
+}
+
 .wrapper {
     height: 300px;
     width: 800px;
